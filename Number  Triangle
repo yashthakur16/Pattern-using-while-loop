@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 int main()
@@ -18,19 +19,11 @@ int main()
             cout<<k;
             k=k+1;
         }
-        int m=1;
-        int value=i-1;
-        while(m<=i-1)
+        int m=i-1;
+        while(m)
         {
-            cout<<value;
-            value=value-1;
-            m=m+1;
-        }
-        int l=1;
-        while(l<=n-i)
-        {
-            cout<<" ";
-            l=l+1;
+            cout<<m;
+            m=m-1;
         }
         cout<<endl;
         i=i+1;
